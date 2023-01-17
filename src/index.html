@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
+    <!-- <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
     <link
@@ -10,19 +10,277 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+
+    <link rel="shortcut icon" href="./4geeks.ico" /> -->
+
+    <title>Universit Managemet System</title>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
+    <!-- <div class="container-fluid text-center"> -->
+    <div>
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="subjects.html">Subjects</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="students.html">Students</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Welcome to the University Management System</h1>
+        <p>
+          This system allows you to manage and view information about courses,
+          subjects, teachers, and students at the university.
+        </p>
+      </main>
+
       <div class="fixed-bottom p-4">
         Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        <a href="https://www.4geeksacademy.com">Juliana Achiame</a>
+      </div>
+    </div>
+  </body>
+</html>
+
+///////////////////////////////////////
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Courses</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <main>
+          <h1>Welcome to the Courses of the University</h1>
+          <p>
+            Here you can find and view information about the courses at the
+            university.
+          </p>
+        </main>
+
+        <nav>
+          <ul>
+            <div className="card mb-3">
+              <div class="card" style="width: 18rem;">
+                <img
+                  src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img-300x196.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Lets see more!</a>
+                </div>
+              </div>
+
+              <!-- //////////////////// -->
+              <br />
+
+              <div class="card" style="width: 18rem;">
+                <img
+                  src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img-300x196.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">
+                    CSS (Cascading Style Sheets) is used to style and layout web
+                    pages — for example, to alter the font, color, size, and
+                    spacing of your content, split it into multiple columns, or
+                    add animations and other decorative features.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Lets see more!!!
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="staticBackdrop"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                            CSS
+                          </h1>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          Includes HTML with Professor Sirius Black and more...
+                          <p>Experience Beginners Certificate of Completion.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+
+                          <!-- Modal -->
+                          <div
+                            class="modal fade"
+                            id="staticBackdrop"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            tabindex="-1"
+                            aria-labelledby="staticBackdropLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1
+                                    class="modal-title fs-5"
+                                    id="staticBackdropLabel"
+                                  >
+                                    Modal title
+                                  </h1>
+                                  <button
+                                    type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
+                                    aria-label="Close"
+                                  ></button>
+                                </div>
+                                <div class="modal-body">
+                                  ...
+                                </div>
+                                <div class="modal-footer">
+                                  <button
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    data-bs-dismiss="modal"
+                                  >
+                                    Close
+                                  </button>
+                                  <button type="button" class="btn btn-primary">
+                                    Understood
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <br />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- //////////////////// -->
+              <br />
+
+              <div class="card" style="width: 18rem;">
+                <img
+                  src="https://www.viewhotels.jp/ryogoku/wp-content/uploads/sites/9/2020/03/test-img-300x196.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">
+                    HTML (HyperText Markup Language) is the code that is used to
+                    structure a web page and its content. For example, content
+                    could be structured within a set of paragraphs, a list of
+                    bulleted points, or using images and data tables.
+                  </p>
+
+                  <!-- aqui deu errado -->
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Modal01"
+                  >
+                    Lets see more!!!
+                  </button>
+                </div>
+              </div>
+
+              <!-- //////////////////// -->
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="Modal01"
+                tabindex="-1"
+                aria-labelledby="Modal01Label"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="Modal01Label">
+                        HTML
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      Includes HTML with Professor Sirius Black and more...
+                      Experience Beginners Certificate of Completion
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- //////////////////// -->
+            </div>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="fixed-bottom p-4">
+        Made with ❤️ by
+        <a href="https://www.4geeksacademy.com">Juliana Achiame</a>
       </div>
     </div>
   </body>
